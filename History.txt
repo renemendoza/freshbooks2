@@ -1,0 +1,28 @@
+== 0.0.1 2009-02-25
+
+* 3.0 major enhancement:
+  * Create connection class
+  * Create gem
+  * Convert xml to ruby type: date, date_time, boolean
+  * Added links to objects
+  * Create DSL to describe FreshBooks actions
+
+== 3.1.0 2010-02-12
+
+  * Add currency_code retrieval (but not yet for clients)
+
+== 3.1.1 2010-03-09
+
+  * Add billingarm.com alternative connection domain
+
+== 3.1.2 2010-08-27
+
+  * Add line_id and type to lines
+
+== 3.1.3 2010-11-16
+
+  * Add language, currency_code, vat_name, vat_number, folder, credits to Client
+  * Add vat_name, vat_number, folder, language to Estimate 
+  * Add folder to Expense
+  * Add folder, language, vat_name, vat_number to Invoice
+  * Add folder to Item
